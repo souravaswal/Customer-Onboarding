@@ -1,0 +1,135 @@
+Attaching to huron_customer_1
+[36mcustomer_1  |[0m 
+[36mcustomer_1  |[0m   .   ____          _            __ _ _
+[36mcustomer_1  |[0m  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[36mcustomer_1  |[0m ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[36mcustomer_1  |[0m  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[36mcustomer_1  |[0m   '  |____| .__|_| |_|_| |_\__, | / / / /
+[36mcustomer_1  |[0m  =========|_|==============|___/=/_/_/_/
+[36mcustomer_1  |[0m  :: Spring Boot ::        (v2.0.4.RELEASE)
+[36mcustomer_1  |[0m 
+[36mcustomer_1  |[0m 2020-07-29 09:03:12.830  INFO 1 --- [           main] c.s.SpringbootCustomerApplication        : Starting SpringbootCustomerApplication v0.0.1-SNAPSHOT on 75164818ded0 with PID 1 (/demo.jar started by root in /)
+[36mcustomer_1  |[0m 2020-07-29 09:03:12.832  INFO 1 --- [           main] c.s.SpringbootCustomerApplication        : No active profile set, falling back to default profiles: default
+[36mcustomer_1  |[0m 2020-07-29 09:03:12.875  INFO 1 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@270421f5: startup date [Wed Jul 29 09:03:12 UTC 2020]; root of context hierarchy
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.054  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.080  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.080  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.091  INFO 1 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.176  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.177  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1302 ms
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.222  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.225  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.225  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.226  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.226  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.320  INFO 1 --- [           main] c.d.driver.core.GuavaCompatibility       : Detected Guava >= 19 in the classpath, using modern compatibility layer
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.551  INFO 1 --- [           main] com.datastax.driver.core.ClockFactory    : Using native clock to generate timestamps.
+[36mcustomer_1  |[0m 2020-07-29 09:03:14.791  INFO 1 --- [           main] com.datastax.driver.core.NettyUtil       : Did not find Netty's native epoll transport in the classpath, defaulting to NIO.
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.035  WARN 1 --- [r1-nio-worker-0] com.datastax.driver.core.Connection      : /10.76.81.119:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication (configured auth provider = com.datastax.driver.core.PlainTextAuthProvider)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.159  INFO 1 --- [           main] c.d.d.c.p.DCAwareRoundRobinPolicy        : Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.161  INFO 1 --- [           main] com.datastax.driver.core.Cluster         : New Cassandra host /10.76.81.119:9042 added
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.177  WARN 1 --- [r1-nio-worker-1] com.datastax.driver.core.Connection      : /10.76.81.119:9042 did not send an authentication challenge; This is suspicious because the driver expects authentication (configured auth provider = com.datastax.driver.core.PlainTextAuthProvider)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.342  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.531  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@270421f5: startup date [Wed Jul 29 09:03:12 UTC 2020]; root of context hierarchy
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.602  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/org-onboarding/api/v1/Organisation],methods=[POST],consumes=[application/json]}" onto public com.springboot.controller.Customer com.springboot.controller.CustomerController.createOrganisation(com.springboot.controller.Customer)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.603  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/org-onboarding/api/v1/Organisation/{guid}],methods=[GET],produces=[application/json]}" onto public com.springboot.controller.Customer com.springboot.controller.CustomerController.getOrganisation(java.lang.String)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.603  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/org-onboarding/api/v1/Organisation/{guid}],methods=[DELETE],produces=[application/json]}" onto public void com.springboot.controller.CustomerController.deleteOrganisation(java.lang.String)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.604  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/org-onboarding/api/v1/Organisation/{guid}],methods=[PUT],produces=[application/json]}" onto public com.springboot.controller.Customer com.springboot.controller.CustomerController.updateOrganisation(com.springboot.controller.Customer)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.606  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.606  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.627  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.627  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.774  INFO 1 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.801  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+[36mcustomer_1  |[0m 2020-07-29 09:03:15.804  INFO 1 --- [           main] c.s.SpringbootCustomerApplication        : Started SpringbootCustomerApplication in 3.347 seconds (JVM running for 3.771)
+[36mcustomer_1  |[0m 2020-07-29 09:04:10.119  INFO 1 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[36mcustomer_1  |[0m 2020-07-29 09:04:10.120  INFO 1 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+[36mcustomer_1  |[0m 2020-07-29 09:04:10.136  INFO 1 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+[36mcustomer_1  |[0m 2020-07-29 09:04:10.172  INFO 1 --- [nio-8080-exec-2] c.s.controller.CustomerController        : Entering method getOrganisation
+[36mcustomer_1  |[0m 2020-07-29 09:04:10.267  INFO 1 --- [nio-8080-exec-2] c.s.controller.CustomerController        : Exiting method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 06:36:07.833  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Entering method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 06:36:07.862  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Exiting method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 06:41:55.977  INFO 1 --- [nio-8080-exec-7] c.s.controller.CustomerController        : Entering method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 06:41:56.237  INFO 1 --- [nio-8080-exec-7] c.s.controller.CustomerController        : Exiting method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:09:37.289  INFO 1 --- [io-8080-exec-10] c.s.controller.CustomerController        : Entering method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:09:37.294  INFO 1 --- [io-8080-exec-10] c.s.controller.CustomerController        : Exiting method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:12:15.468  INFO 1 --- [nio-8080-exec-3] c.s.controller.CustomerController        : Entering method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:12:15.470  INFO 1 --- [nio-8080-exec-3] c.s.controller.CustomerController        : Exiting method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:13:08.960  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Entering method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:13:08.964  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Exiting method createOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:18:59.046  INFO 1 --- [nio-8080-exec-8] c.s.controller.CustomerController        : Entering method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:18:59.056  INFO 1 --- [nio-8080-exec-8] c.s.controller.CustomerController        : Exiting method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:19:27.044  INFO 1 --- [nio-8080-exec-9] c.s.controller.CustomerController        : Entering method getOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:19:27.060 ERROR 1 --- [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+[36mcustomer_1  |[0m 
+[36mcustomer_1  |[0m java.util.NoSuchElementException: No value present
+[36mcustomer_1  |[0m 	at java.util.Optional.get(Optional.java:135) ~[na:1.8.0_111]
+[36mcustomer_1  |[0m 	at com.springboot.controller.CustomerController.getOrganisation(CustomerController.java:73) ~[classes!/:0.0.1-SNAPSHOT]
+[36mcustomer_1  |[0m 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+[36mcustomer_1  |[0m 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+[36mcustomer_1  |[0m 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+[36mcustomer_1  |[0m 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+[36mcustomer_1  |[0m 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851) ~[spring-webmvc-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.8.RELEASE.jar!/:5.0.8.RELEASE]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+[36mcustomer_1  |[0m 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+[36mcustomer_1  |[0m 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.32.jar!/:8.5.32]
+[36mcustomer_1  |[0m 	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+[36mcustomer_1  |[0m 
+[36mcustomer_1  |[0m 2020-07-30 07:20:15.902  INFO 1 --- [io-8080-exec-10] c.s.controller.CustomerController        : Entering method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:20:15.910  INFO 1 --- [io-8080-exec-10] c.s.controller.CustomerController        : Exiting method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:20:47.384  INFO 1 --- [nio-8080-exec-2] c.s.controller.CustomerController        : Entering method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:20:47.390  INFO 1 --- [nio-8080-exec-2] c.s.controller.CustomerController        : Exiting method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:21:50.079  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Entering method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:21:50.082  INFO 1 --- [nio-8080-exec-4] c.s.controller.CustomerController        : Exiting method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:22:14.437  INFO 1 --- [nio-8080-exec-6] c.s.controller.CustomerController        : Entering method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:22:14.449  INFO 1 --- [nio-8080-exec-6] c.s.controller.CustomerController        : Exiting method updateOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:23:51.575  INFO 1 --- [nio-8080-exec-9] c.s.controller.CustomerController        : Entering method deleteOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:23:51.590  INFO 1 --- [nio-8080-exec-9] c.s.controller.CustomerController        : Exiting method deleteOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:24:16.102  INFO 1 --- [nio-8080-exec-1] c.s.controller.CustomerController        : Entering method deleteOrganisation
+[36mcustomer_1  |[0m 2020-07-30 07:24:16.108  INFO 1 --- [nio-8080-exec-1] c.s.controller.CustomerController        : Exiting method deleteOrganisation
+Gracefully stopping... (press Ctrl+C again to force)

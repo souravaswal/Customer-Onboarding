@@ -1,11 +1,12 @@
-server:
-  port: 3001
 
 spring:
   data:
     cassandra:
       keyspace-name: simple_programming
       port: 9042
-      contact-points: localhost
+      contact-points: 10.76.81.119
       username: cassandra
       password: cassandra
+
+logging:
+  path: ./

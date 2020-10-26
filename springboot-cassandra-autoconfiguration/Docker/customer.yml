@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+
+  customer:
+    image: customer01
+    network_mode: 'bridge'
+    ports:
+    - "8608:8080"
+
